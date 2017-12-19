@@ -1,0 +1,34 @@
+{
+  "name": "locale-saver",
+  "bin": {
+    "locale-saver": "bin.js"
+  },
+  "version": "0.1.0",
+  "description": "Set of tools to speed up locale tasks in js and html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beyersito/locale-saver.git"
+  },
+  "keywords": [
+    "locale"
+  ],
+  "author": "Martin Beyer <beyerdeicasmartin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beyersito/locale-saver/issues"
+  },
+  "homepage": "https://github.com/beyersito/locale-saver#readme",
+  "dependencies": {
+    "chalk": "2.3.0",
+    "cheerio": "1.0.0-rc.2",
+    "commander": "2.12.2",
+    "fast-html-parser": "1.0.1",
+    "htmlparser2": "3.9.2",
+    "http": "0.0.0",
+    "lodash": "4.17.4"
+  }
+}
